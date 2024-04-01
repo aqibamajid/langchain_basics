@@ -7,11 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
-openai = "0.27.1"
+openai = "^1.10.0"
 pandas = "1.5"
 typing-extensions = "4.8.0"
-langchain = "0.0.300"
+langchain = "0.1.13"
 python-dotenv = "^1.0.1"
+kaggle = "^1.6.8"
+langchain-openai = "^0.1.1"
 
 
 [tool.poetry.group.dev.dependencies]
